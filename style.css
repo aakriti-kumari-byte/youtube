@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: hii;
+    src: url(./Pokemon\ Hollow.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width; 100%;
+}
+body{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+#box1{
+    height:100%;
+    width: 60%;
+background-color: rgb(255, 180, 4);
+padding-top: 20px;
+}
+h1{
+    color: rgb(0, 26, 255);
+    font-family: hii;
+    font-size: 50px;
+    margin-left: 30px;
+  
+    
+}
+h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+    margin-left: 50px;margin-top: 50px;
+}
+h3{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 190px;
+    margin-left: 30px;
+}
+p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 40px;
+}
+
+
+#box2{
+    
+    height:100%;
+    width: 40%;
+background-color: rgb(232, 214, 190);
+}
+
+#pokee{ 
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+}
+
+
